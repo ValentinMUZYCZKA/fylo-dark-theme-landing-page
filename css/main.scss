@@ -1,0 +1,293 @@
+@import 'colors';
+
+body{
+    background-color: $DarkBlueBackground;
+    font-size: 14px;
+    font-family: "Open Sans";
+    color: $White;
+    font-weight: 400;
+    text-align: center;
+}
+.container{
+    max-width: 1440px;
+    margin: auto;
+}
+.menu-nav{
+
+    padding-top: 4.4rem;
+    padding-left: 5rem;
+    background-color: $DarkBlue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Raleway";
+    &__group-menu-nav{
+        
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 270px;
+        padding-right: 5.16rem;
+        font-size: 1.1em;
+        .group-menu-nav{
+            
+            &__link{
+                    & > a{
+                        text-decoration: none;
+                        color: $White;
+                    }
+                }
+        }
+    }
+
+
+}
+
+
+.section1{
+
+    background: no-repeat url("../asset/images/bg-curvy-desktop.svg"),
+                $DarkBlue;
+    background-position:  bottom;
+    margin-bottom: 12rem;
+
+    &__image{
+        margin-top: 4.85rem;
+    }
+
+    &__title{
+        font-family: "Raleway";
+        font-size: 2.9em;
+        font-weight: 700;
+        line-height: 3.66rem;
+        max-width: 700px;
+        margin: auto;
+        margin-bottom: 2.18rem;
+    }
+
+    &__text{
+        font-size: 1.43em;
+        max-width: 630px;
+        margin: auto;
+        line-height: 1.5em;
+        margin-bottom: 2.55em;
+    }
+}
+
+.btn{
+    background: $Cyan;
+    color: $White;
+    font-family: "Raleway";
+    font-size: 1.005rem;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 6rem;
+    padding-top: 1.15rem;
+    padding-bottom: 1.15rem;
+    border-radius: 7rem;
+}
+
+.section2{
+
+    &__group-card{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        max-width: 1050px;
+        margin: auto;
+
+        .card{
+            width: 379.9px;
+            margin-bottom: 5.52rem;
+            &__image{
+               
+            }
+        
+            &__title{
+                font-family: "Raleway";
+                font-weight: 700;
+                font-size: 1.2rem;
+                margin-top: 1.6em;
+                margin-bottom: 0.65rem;
+            }
+        
+            &__text{
+                line-height: 1.35rem;
+            }
+        }
+    }
+}
+
+
+
+.section3{
+
+        display: flex;
+        flex-direction: row;
+        margin-top: 2.9rem;
+        margin-bottom: 11.2rem;
+        
+    &__image{
+        margin-left: 6.2rem;
+    }
+
+    &__info{
+        margin-left: 4rem;
+        text-align: left;
+        margin-top: 7.1rem;
+        max-width: 580px;
+
+        .info{
+            &__title{
+                font-family: "Raleway";
+                font-size: 2.5rem;
+                font-weight: 700;
+                line-height: 3.1rem;
+                margin-bottom: 1.4rem;
+
+                
+            }
+        
+            &__text{
+                line-height: 1.5rem;
+                font-size: 1.01rem;
+                margin-bottom: 1rem;
+                &:last-of-type{
+                    margin-bottom: 1.6rem;
+                }
+            }
+        
+            &__link{
+                color: $link;
+                font-size: 1.2em;
+                text-decoration: none;
+                border-bottom: solid $link 1px;
+                padding-bottom: 0.2rem;
+            }
+        }
+    }  
+}
+
+
+.section4{
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: auto;
+    &__quote{
+        background-color: $lighterBlue;
+        width: 295px;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 2.45rem;
+        padding-bottom: 1.4rem;
+        line-height: 1.35rem;
+        text-align: left;
+        border-radius: 5px;
+
+        .quote{
+
+            &__text{
+                margin-bottom: 1.2rem;
+            }
+
+            &__profile{
+                display: flex;
+                flex-direction: row;
+                line-height: 1rem;
+
+                .profile{
+
+                    &__image{
+                        height: 24px;
+                        border-radius: 50%;
+                    }
+                    &__name{
+                        margin-top: 0.18rem;
+                        font-size: 0.8em;
+                    }
+
+                    &__job{
+                        font-size: 0.5em;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.section5{
+
+    &__title{
+
+    }
+
+    &__text{
+
+    }
+    
+    &__form{
+        
+        .form{
+
+            &__mail{
+
+            }
+
+            &__btn{
+
+                &.sentence{
+
+                }
+
+                &.image{
+
+                }
+            }
+        }
+        
+    }
+}
+
+.menu-footer{
+
+    &__image{
+
+    }
+
+    &__infos{
+
+        &.location{
+
+        }
+
+        &.contact{
+
+        }
+    }
+
+    &__text{
+
+        &--info{
+
+        }
+    }
+
+    &__links{
+
+    }
+
+    &__link{
+
+    }
+
+    &__social-media-image{
+
+        &--image{
+
+        }
+    }
+}
