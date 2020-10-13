@@ -130,21 +130,17 @@
             </section>
             <section class="section5">
                 <h2 class="section5__title">Get early access today</h2>
-                <p class="section5__texte">
+                <p class="section5__text">
                     It only takes a minute to sign up and our free starter tier is extremely generous. If you have any 
                     questions, our support team would be happy to help you.
                 </p>
-                <form action="prevent default" class="section5__form">
-                    <input type="email" class="form__mail" placeholder="email.example.com">
-                    <div class="form__btn">
-                        <input type="submit" class="form__btn- sentence" value="Get Started For Free">
-                        <img src="" alt="" class="form__btn image">
-                    </div>
-                    
+                <form onsubmit="myFunction(); return false;" class="section5__form">
+                    <input type="email" class="form__mail" placeholder="email@example.com">
+                    <input type="submit" class="form__btn btn " value="Get Started For Free">
                 </form>
             </section>
             <footer class="menu-footer">
-                <img src="./asset/images/logo.svg" alt="" class="menu-footer__image">
+                <img src="./asset/images/logo.svg" alt="" class="menu-footer__image--logo">
                 <div class="menu-footer__infos">
                     <div class="menu-footer__infos menu-footer__infos location ">
                         <img src="./asset/images/icon-location.svg" alt="" class="menu-footer__image">
@@ -180,15 +176,16 @@
                         <i class="fab fa-instagram" class="menu-footer__social-media--image"></i>
                     </div>
                 </div>
+                <p class="attribution">
+                    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+                    Coded by <a href="#">Valentin MUZYCZKA</a>.
+                  </p>
             </footer>
         </main>
     </div>
 
   <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
+
   </footer>
 </body>
 </html>

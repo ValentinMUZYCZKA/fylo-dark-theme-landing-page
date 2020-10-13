@@ -54,6 +54,8 @@ body{
     margin-bottom: 12rem;
 
     &__image{
+        width: 100%;
+        max-width: 720px;
         margin-top: 4.85rem;
     }
 
@@ -127,11 +129,15 @@ body{
 
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
+        padding-left: 6.2rem;
         margin-top: 2.9rem;
         margin-bottom: 11.2rem;
         
     &__image{
-        margin-left: 6.2rem;
+        width: 100%;
+        max-width: 615px;
+        
     }
 
     &__info{
@@ -175,8 +181,11 @@ body{
 .section4{
     display: flex;
     justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
     max-width: 1200px;
     margin: auto;
+
     &__quote{
         background-color: $lighterBlue;
         width: 295px;
@@ -187,6 +196,7 @@ body{
         line-height: 1.35rem;
         text-align: left;
         border-radius: 5px;
+        margin-bottom: 1.5rem;
 
         .quote{
 
@@ -220,32 +230,61 @@ body{
 }
 
 .section5{
+    background-color: $DarkBlue;
+        max-width: 864px;
+        margin: auto;
+        margin-top: 11.4rem;
+        padding-top: 3rem;
+        padding-bottom: 2.5rem;
+        border-radius: 10px;
+        -webkit-box-shadow: 10px 10px 15px -8px rgba(0,0,0,0.50);
+        -moz-box-shadow: 10px 10px 15px -8px rgba(0,0,0,0.50);
+        box-shadow: 10px 10px 15px -8px rgba(0,0,0,0.50);
 
     &__title{
-
+        font-family: 'Raleway';
+        font-size: 2.3em;
+        font-weight: 700;
+        margin-bottom: 1.5rem;
     }
 
     &__text{
-
+        max-width: 650px;
+        line-height: 1.5em;
+        margin: auto;
+        margin-bottom: 2.35rem;
     }
     
     &__form{
-        
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-right: 4.7rem;
+        padding-left: 4.7rem;
         .form{
 
             &__mail{
+                width: 450px;
+                margin-right: 1.8rem;
+                border-radius: 7rem;
+                padding: 1rem;
+                border: none;
 
+                &::placeholder{
+                    font-size: 0.75rem;
+                    padding-left: 2.1rem;
+                    color: lightgray;
+                }
             }
 
             &__btn{
-
-                &.sentence{
-
-                }
-
-                &.image{
-
-                }
+                border: none;
+                width: 200px;
+                font-family: 'Raleway';
+                font-size: 0.86rem;
+                padding: 1rem;
+                padding-left: 0;
+                padding-right: 0;
             }
         }
         
@@ -253,22 +292,45 @@ body{
 }
 
 .menu-footer{
+    background-color: $DarkerBlue;
+    position: relative;
+    z-index: -1;
+    left: 0;
+    top: -5rem;
+    padding-top: 10.2rem;
+    -webkit-box-shadow: 10px 10px 15px -8px rgba(0,0,0,0.50);
+    -moz-box-shadow: 10px 10px 15px -8px rgba(0,0,0,0.50);
+    box-shadow: 10px 10px 15px -8px rgba(0,0,0,0.50);
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
 
     &__image{
-
+        &--logo{
+            width: 176px;
+        }
     }
 
     &__infos{
+        text-align: left;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
 
         &.location{
 
         }
 
         &.contact{
-
+            display: flex;
+            flex-direction: column;
         }
     }
 
+    &__contact{
+        display: flex;
+        flex-direction: row;
+    }
     &__text{
 
         &--info{
@@ -277,7 +339,8 @@ body{
     }
 
     &__links{
-
+        display: flex;
+        flex-direction: column;
     }
 
     &__link{
