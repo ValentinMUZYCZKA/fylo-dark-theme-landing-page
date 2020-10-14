@@ -91,7 +91,10 @@ body{
     padding-top: 1.15rem;
     padding-bottom: 1.15rem;
     border-radius: 7rem;
+<<<<<<< HEAD
     cursor: pointer;
+=======
+>>>>>>> parent of c86353c... html css finished
 }
 
 .section2{
@@ -107,6 +110,9 @@ body{
         .card{
             width: 379.9px;
             margin-bottom: 5.52rem;
+            &__image{
+               
+            }
         
             &__title{
                 font-family: "Raleway";
@@ -131,7 +137,6 @@ body{
         flex-direction: row;
         flex-wrap: wrap;
         padding-left: 6.2rem;
-        margin: auto;
         margin-top: 2.9rem;
         margin-bottom: 11.2rem;
         
@@ -144,7 +149,6 @@ body{
     &__info{
         margin-left: 4rem;
         text-align: left;
-        
         margin-top: 7.1rem;
         max-width: 580px;
 
@@ -155,7 +159,7 @@ body{
                 font-weight: 700;
                 line-height: 3.1rem;
                 margin-bottom: 1.4rem;
-                width: 22rem;
+
                 
             }
         
@@ -298,28 +302,18 @@ body{
     position: relative;
     z-index: -1;
     left: 0;
-    top: -7.2rem;
-    padding-top: 12.5rem;
-    padding-left: 7.6rem;
-    padding-right: 5.1rem;
+    top: -5rem;
+    padding-top: 10.2rem;
     -webkit-box-shadow: 10px 10px 15px -8px rgba(0,0,0,0.50);
     -moz-box-shadow: 10px 10px 15px -8px rgba(0,0,0,0.50);
     box-shadow: 10px 10px 15px -8px rgba(0,0,0,0.50);
     display: flex;
     flex-direction: column;
     justify-content: start;
-    line-height: 1.5rem;
 
     &__image{
-        height: auto;
-        margin-right: 1.7rem;
-
-        &--location{
-            margin-top: 0.5rem;
-        }
         &--logo{
             width: 176px;
-            margin-bottom: 2rem;
         }
     }
 
@@ -327,274 +321,42 @@ body{
         text-align: left;
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
-        align-items: flex-start;
         flex-wrap: wrap;
-        margin-bottom: 4.5rem;
+
         &.location{
-            display: flex;
-            flex-direction: row;
-            justify-content: flex-start;
-            align-items: flex-start;
+
         }
 
         &.contact{
             display: flex;
             flex-direction: column;
-            align-items: flex-start;
-            
-            margin-right: 4rem;
-            margin-left: 0.8rem;
         }
     }
 
     &__contact{
         display: flex;
         flex-direction: row;
-        align-items: flex-start;
     }
     &__text{
-        width: 100%;
-        max-width: 330px;
-        font-size: 1.133em;
-        
+
         &--info{
-            margin-bottom: 1.1rem;
+
         }
     }
 
     &__links{
         display: flex;
         flex-direction: column;
-        line-height: 2.74em;
-        margin-top: -0.5rem;
     }
 
     &__link{
-        color: $White;
-        text-decoration: none;
-        font-size: 1.133em;
+
     }
 
     &__social-media-image{
-        margin-left: 2rem;
-    }
-    &__social-media--image{
-        width: 16px;
-        height: 16px;
-        text-align: center;
-        font-size: 1.1em;
-        border: solid $White 1px;
-        padding: 0.4rem;
-        border-radius: 50%;
-        margin-left: 0.5rem;
-    }
-}
-.attribution{
-    &>a{
-        color: $link;
-    }
-}
 
-@media screen and (max-width: 740px) {
+        &--image{
 
-    .menu-nav{
-
-        padding-left: 1.2rem;
-        padding-top: 1.45rem;
-        &__logo{
-            width: 80px;
-        }
-
-        &__group-menu-nav{
-            width: 165px;
-            padding-right: 1.6rem;
-            font-size: 0.8rem;
-        }
-    }
-    .section1{
-        padding-left: 1.5rem;
-        padding-right: 1.5rem;
-        margin-bottom: 9.1rem;
-
-        &__image{
-            margin-top: 3rem;
-            margin-bottom: 2.18rem;
-            width: 80vw;
-        }
-
-        &__title{
-            font-size: 1.5rem;
-            line-height: 2.3rem;
-            margin-bottom: 0.9rem;
-        }
-
-        &__text{
-            font-size: 0.95rem;
-            line-height: 1.37rem;
-            margin-bottom: 3.1rem;
-        }
-
-        &__link{
-            padding-top: 0.9rem;
-            padding-bottom: 0.9rem;
-            
-        }
-    }
-    .btn{
-        padding-left: 4.85rem;
-        padding-right: 4.85rem;
-    }
-    .section2{
-
-        &__group-card{
-            padding-left: 1.9rem;
-            padding-right: 1.9rem;
-
-            .card{
-                &__image{
-                    height: 61px ;
-                }
-
-                &__title{
-                    margin-top: 2.3rem;
-                }
-                &__text{
-                    font-size: 0.927em;
-                }
-            }
-        }
-    }
-    .section3{
-        padding-left: 0;
-        margin: auto;
-        justify-content: center;
-
-        &__image{
-            margin-top: 4.6rem;
-            width: 75vw;
-        }
-
-        &__info{
-            margin-left: 0;
-            width: 80vw;
-
-            .info{
-
-                &__title{
-                    font-size: 1.3em;
-                    margin-bottom: 0.2rem;
-                }
-                &__text{
-                    font-size: 0.9em;
-                    line-height: 1.7em;
-
-                    &:last-of-type{
-                        margin-bottom: 1rem;
-                    }
-                }
-
-                &__link{
-                    font-size: 0.8rem;
-                }
-            }
-        }
-    }
-
-    .section4{
-        margin-top: 11rem;
-        padding-left: 3rem;
-        padding-right: 3rem;
-
-        &__quote{
-            padding-top: 1.5rem;
-            padding-bottom: 1rem;
-
-            .quote{
-
-                &__text{
-                    font-size: 0.65em;
-                    line-height: 2em;
-                    margin-bottom: 0.7rem;
-                }
-                &__profile{
-                    align-items: center;
-
-                    .profile{
-                        
-                        &__image{
-                            margin-right: 0.5rem;
-                        }
-                    }
-                }
-            }
-        }
-    }
-
-    .section5{
-        margin-left: 1.5rem;
-        margin-right: 1.5rem;
-        padding-left: 2rem;
-        padding-right: 2rem;
-
-
-        &__title{
-            font-size: 1.2rem;
-        }
-
-        &__text{
-            font-size: 0.95em;
-        }
-
-        &__form{
-            width: 100%;
-            padding-left: 0;
-            .form{
-
-                &__mail{
-                    width: 100%;
-                    margin-left: 0;
-                    margin-right: 0;
-                    margin-bottom: 1.5rem;
-                }
-                &__btn{
-                    width: 100%;
-                    margin-left: 0;
-                    margin-right: 0;
-                }
-            }
-        }
-    }
-
-    .menu-footer{
-        padding-left: 1.8rem;
-        padding-right: 1.8rem;
-
-        &__image{
-
-            &--logo{
-                margin-left: 1rem;
-            }
-            
-        }
-        &__infos{
-
-            & .location{
-                flex-direction: row;
-            }
-        }
-        &__text{
-            width: 87%;
-        }
-        &__links{
-            width: 100%;
-            margin-bottom: 2rem;
-        }
-
-        &__social-media-image{
-            text-align: center;
-            width: 100%;
-            margin: 0;
         }
     }
 }
