@@ -7,7 +7,6 @@ body{
     color: $White;
     font-weight: 400;
     text-align: center;
-    overflow: hidden;
 }
 .container{
     max-width: 1440px;
@@ -52,7 +51,6 @@ body{
     background: no-repeat url("../asset/images/bg-curvy-desktop.svg"),
                 $DarkBlue;
     background-position:  bottom;
-    background-size: 100%;
     margin-bottom: 12rem;
 
     &__image{
@@ -92,6 +90,10 @@ body{
     padding-bottom: 1.15rem;
     border-radius: 7rem;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    transition: all 0.4s;
+>>>>>>> parent of cc1c774... timemachine
     cursor: pointer;
 =======
 >>>>>>> parent of c86353c... html css finished

@@ -5,7 +5,6 @@ body {
   color: white;
   font-weight: 400;
   text-align: center;
-  overflow: hidden;
 }
 
 .container {
@@ -40,7 +39,6 @@ body {
 .section1 {
   background: no-repeat url("../asset/images/bg-curvy-desktop.svg"), #1c2431;
   background-position: bottom;
-  background-size: 100%;
   margin-bottom: 12rem;
 }
 .section1__image {
@@ -77,6 +75,10 @@ body {
   padding-bottom: 1.15rem;
   border-radius: 7rem;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  transition: all 0.4s;
+>>>>>>> parent of cc1c774... timemachine
   cursor: pointer;
 =======
 >>>>>>> parent of c86353c... html css finished
