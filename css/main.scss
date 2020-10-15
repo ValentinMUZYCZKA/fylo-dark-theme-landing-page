@@ -51,15 +51,15 @@ body{
 
     background: no-repeat url("../asset/images/bg-curvy-desktop.svg"),
                 $DarkBlue;
-    background-position:  bottom;
+    background-position:  0 45.5rem;
     background-size: 100%;
-    margin-bottom: 12rem;
+    padding-bottom: 11.9rem;
 
     &__image{
         width: 100%;
         max-width: 720px;
         margin-top: 4.85rem;
-        margin-bottom: 2.3rem;
+        padding-bottom: 2.3rem;
     }
 
     &__title{
