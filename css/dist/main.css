@@ -331,6 +331,10 @@ body {
   color: #65e2d9;
 }
 
+.display-none {
+  display: none;
+}
+
 @media screen and (max-width: 740px) {
   .menu-nav {
     padding-left: 1.2rem;
