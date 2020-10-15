@@ -7,6 +7,7 @@ body{
     color: $White;
     font-weight: 400;
     text-align: center;
+    overflow-x: hidden;
 }
 .container{
     max-width: 1440px;
@@ -51,6 +52,7 @@ body{
     background: no-repeat url("../asset/images/bg-curvy-desktop.svg"),
                 $DarkBlue;
     background-position:  bottom;
+    background-size: 100%;
     margin-bottom: 12rem;
 
     &__image{
@@ -89,7 +91,6 @@ body{
     padding-top: 1.15rem;
     padding-bottom: 1.15rem;
     border-radius: 7rem;
-    transition: all 0.4s;
     cursor: pointer;
 }
 
@@ -483,6 +484,7 @@ body{
                 &__title{
                     font-size: 1.3em;
                     margin-bottom: 0.2rem;
+                    width: auto;
                 }
                 &__text{
                     font-size: 0.9em;
@@ -546,7 +548,7 @@ body{
         }
 
         &__form{
-            width: 100%;
+            padding-right: 0;
             padding-left: 0;
             .form{
 

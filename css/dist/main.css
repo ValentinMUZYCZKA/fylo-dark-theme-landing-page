@@ -5,6 +5,7 @@ body {
   color: white;
   font-weight: 400;
   text-align: center;
+  overflow-x: hidden;
 }
 
 .container {
@@ -39,6 +40,7 @@ body {
 .section1 {
   background: no-repeat url("../asset/images/bg-curvy-desktop.svg"), #1c2431;
   background-position: bottom;
+  background-size: 100%;
   margin-bottom: 12rem;
 }
 .section1__image {
@@ -74,7 +76,6 @@ body {
   padding-top: 1.15rem;
   padding-bottom: 1.15rem;
   border-radius: 7rem;
-  transition: all 0.4s;
   cursor: pointer;
 }
 
@@ -403,6 +404,7 @@ body {
   .section3__info .info__title {
     font-size: 1.3em;
     margin-bottom: 0.2rem;
+    width: auto;
   }
   .section3__info .info__text {
     font-size: 0.9em;
@@ -449,7 +451,7 @@ body {
     font-size: 0.95em;
   }
   .section5__form {
-    width: 100%;
+    padding-right: 0;
     padding-left: 0;
   }
   .section5__form .form__mail {
